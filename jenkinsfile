@@ -11,5 +11,10 @@ pipeline{
                 echo "Hellow 2"
             }
         }
+        stage("Stage 3"){
+            steps{
+                echo "successfully connected to github"
+            }
+        }
     }
 }
