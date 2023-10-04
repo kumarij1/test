@@ -16,5 +16,10 @@ pipeline{
                 echo "successfully connected to github"
             }
         }
+      stage("Stage 4"){
+            steps{
+                echo "successfully poll scm"
+            }
+        }
     }
 }
